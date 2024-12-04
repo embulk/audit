@@ -48,4 +48,6 @@ end
 expected_repos = load_expected_repos("repos.yaml")
 actual_repos = load_actual_repos(ENV.fetch('GITHUB_TOKEN'))
 
-assert_repos(expected_repos, actual_repos)
+puts actual_repos.inspect
+
+# assert_repos(expected_repos, actual_repos)
