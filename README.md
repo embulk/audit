@@ -15,5 +15,13 @@ Create a GitHub fine-grained personal access token at : https://github.com/setti
 
 ```
 bundle install
-env GITHUB_TOKEN="..." bundle exec ruby ./audit.rb
+```
+
+```
+# Or, it loads GitHub Token from the "GITHUB_TOKEN` environment variable if the file does not exist.
+echo "..." > github_token
+```
+
+```
+bundle exec ruby ./audit.rb
 ```
