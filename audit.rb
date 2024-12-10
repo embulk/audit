@@ -1,7 +1,10 @@
 # coding: utf-8
 require 'octokit'
 require 'minitest'
+require 'pathname'
 require 'yaml'
+
+SCRIPT_PATH = Pathname.new(__dir__)
 
 include Minitest::Assertions
 
@@ -9,6 +12,23 @@ class << self
   attr_accessor :assertions
 end
 self.assertions = 0
+
+def retrieve_github_token()
+  token_path = SCRIPT_PATH.join('github_token')
+  if File.exist?(token_path)
+    File.open(token_path) do |f|
+      puts "Found GitHub token file: github_token"
+      return f.gets
+    end
+  end
+
+  if ENV.has_key?('GITHUB_TOKEN')
+    puts "Not found GitHub token file. Using the env: GITHUB_TOKEN"
+    return ENV.fetch('GITHUB_TOKEN')
+  end
+
+  raise StandardError, "Not found GitHub token token."
+end
 
 def assert_repos(expected_repos, actual_repos)
   expected_repo_names = expected_repos.map { |node| node[:name] }
@@ -46,7 +66,7 @@ GRAPHQL
 end
 
 expected_repos = load_expected_repos("repos.yaml")
-actual_repos = load_actual_repos(ENV.fetch('GITHUB_TOKEN'))
+actual_repos = load_actual_repos(retrieve_github_token())
 
 puts actual_repos.inspect
 
