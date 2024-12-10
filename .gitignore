@@ -1,3 +1,5 @@
+/github_token
+
 *.gem
 *.rbc
 /.config
