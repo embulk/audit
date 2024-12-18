@@ -1,84 +1,84 @@
-- name: ".github"
-- name: "audit"
-- name: "dev.embulk.org"
-- name: "discussions"
-- name: "dl.embulk.org"
-- name: "docs"
-- name: "docs.embulk.org"
-- name: "embulk"
-- name: "embulk-base-guess"
-- name: "embulk-base-restclient"
-- name: "embulk-decoder-bzip2"
-- name: "embulk-decoder-gzip"
-- name: "embulk-docs"
-- name: "embulk-encoder-bzip2"
-- name: "embulk-encoder-gzip"
-- name: "embulk-executor-mapreduce"
-- name: "embulk-filter-calcite"
-- name: "embulk-filter-column"
-- name: "embulk-filter-decrypt"
-- name: "embulk-filter-encrypt"
-- name: "embulk-filter-expand_json"
-- name: "embulk-filter-remove_columns"
-- name: "embulk-filter-rename"
-- name: "embulk-formatter-csv"
-- name: "embulk-guess-bzip2"
-- name: "embulk-guess-csv"
-- name: "embulk-guess-csv_verify"
-- name: "embulk-guess-gzip"
-- name: "embulk-guess-json"
-- name: "embulk-guess-msgpack"
-- name: "embulk-input-azure_blob_storage"
-- name: "embulk-input-command"
-- name: "embulk-input-config"
-- name: "embulk-input-file"
-- name: "embulk-input-ftp"
-- name: "embulk-input-gcs"
-- name: "embulk-input-jdbc"
-- name: "embulk-input-mongodb"
-- name: "embulk-input-s3"
-- name: "embulk-input-script"
-- name: "embulk-input-sftp"
-- name: "embulk-output-azure_blob_storage"
-- name: "embulk-output-bigquery"
-- name: "embulk-output-command"
-- name: "embulk-output-elasticsearch"
-- name: "embulk-output-file"
-- name: "embulk-output-ftp"
-- name: "embulk-output-gcs"
-- name: "embulk-output-jdbc"
-- name: "embulk-output-null"
-- name: "embulk-output-s3"
-- name: "embulk-output-sftp"
-- name: "embulk-output-stdout"
-- name: "embulk-parser-apache-log"
-- name: "embulk-parser-csv"
-- name: "embulk-parser-json"
-- name: "embulk-parser-msgpack"
-- name: "embulk-spi"
-- name: "embulk-standards"
-- name: "embulk-util-aws-credentials"
-- name: "embulk-util-config"
-- name: "embulk-util-csv"
-- name: "embulk-util-dynamic"
-- name: "embulk-util-file"
-- name: "embulk-util-guess"
-- name: "embulk-util-json"
-- name: "embulk-util-msgpack"
-- name: "embulk-util-retryhelper"
-- name: "embulk-util-rubytime"
-- name: "embulk-util-snakeyaml"
-- name: "embulk-util-ssl"
-- name: "embulk-util-text"
-- name: "embulk-util-throttle-helper"
-- name: "embulk-util-timestamp"
-- name: "embulk.github.io"
-- name: "gradle-embulk-plugins"
-- name: "gradle-embulk-runset"
-- name: "guice-bootstrap"
-- name: "logo"
-- name: "old-embulk.github.io"
-- name: "plugin-crawler"
-- name: "plugins-cross-search"
-- name: "plugins.embulk.org"
-- name: "test.embulk.org"
+".github": {}
+"audit": {}
+"dev.embulk.org": {}
+"discussions": {}
+"dl.embulk.org": {}
+"docs": {}
+"docs.embulk.org": {}
+"embulk": {}
+"embulk-base-guess": {}
+"embulk-base-restclient": {}
+"embulk-decoder-bzip2": {}
+"embulk-decoder-gzip": {}
+"embulk-docs": {}
+"embulk-encoder-bzip2": {}
+"embulk-encoder-gzip": {}
+"embulk-executor-mapreduce": {}
+"embulk-filter-calcite": {}
+"embulk-filter-column": {}
+"embulk-filter-decrypt": {}
+"embulk-filter-encrypt": {}
+"embulk-filter-expand_json": {}
+"embulk-filter-remove_columns": {}
+"embulk-filter-rename": {}
+"embulk-formatter-csv": {}
+"embulk-guess-bzip2": {}
+"embulk-guess-csv": {}
+"embulk-guess-csv_verify": {}
+"embulk-guess-gzip": {}
+"embulk-guess-json": {}
+"embulk-guess-msgpack": {}
+"embulk-input-azure_blob_storage": {}
+"embulk-input-command": {}
+"embulk-input-config": {}
+"embulk-input-file": {}
+"embulk-input-ftp": {}
+"embulk-input-gcs": {}
+"embulk-input-jdbc": {}
+"embulk-input-mongodb": {}
+"embulk-input-s3": {}
+"embulk-input-script": {}
+"embulk-input-sftp": {}
+"embulk-output-azure_blob_storage": {}
+"embulk-output-bigquery": {}
+"embulk-output-command": {}
+"embulk-output-elasticsearch": {}
+"embulk-output-file": {}
+"embulk-output-ftp": {}
+"embulk-output-gcs": {}
+"embulk-output-jdbc": {}
+"embulk-output-null": {}
+"embulk-output-s3": {}
+"embulk-output-sftp": {}
+"embulk-output-stdout": {}
+"embulk-parser-apache-log": {}
+"embulk-parser-csv": {}
+"embulk-parser-json": {}
+"embulk-parser-msgpack": {}
+"embulk-spi": {}
+"embulk-standards": {}
+"embulk-util-aws-credentials": {}
+"embulk-util-config": {}
+"embulk-util-csv": {}
+"embulk-util-dynamic": {}
+"embulk-util-file": {}
+"embulk-util-guess": {}
+"embulk-util-json": {}
+"embulk-util-msgpack": {}
+"embulk-util-retryhelper": {}
+"embulk-util-rubytime": {}
+"embulk-util-snakeyaml": {}
+"embulk-util-ssl": {}
+"embulk-util-text": {}
+"embulk-util-throttle-helper": {}
+"embulk-util-timestamp": {}
+"embulk.github.io": {}
+"gradle-embulk-plugins": {}
+"gradle-embulk-runset": {}
+"guice-bootstrap": {}
+"logo": {}
+"old-embulk.github.io": {}
+"plugin-crawler": {}
+"plugins-cross-search": {}
+"plugins.embulk.org": {}
+"test.embulk.org": {}

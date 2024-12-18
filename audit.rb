@@ -61,13 +61,17 @@ query paginate($cursor: String) {
 }
 GRAPHQL
 
-  response = client.post '/graphql', { query: query }.to_json
-  return response[:data][:organization][:repositories][:nodes]
+  response_sawyer = client.post '/graphql', { query: query }.to_json
+  repositories_array = response_sawyer.data.to_h[:organization][:repositories][:nodes]
+  repositories = {}
+  repositories_array.each do |repository|
+    repositories[repository[:name]] = {}
+  end
+  return repositories
 end
 
 expected_repos = load_expected_repos("repos.yaml")
 actual_repos = load_actual_repos(retrieve_github_token())
 
-puts actual_repos.inspect
-
-# assert_repos(expected_repos, actual_repos)
+puts actual_repos
+puts expected_repos
