@@ -31,14 +31,12 @@ def retrieve_github_token()
 end
 
 def assert_repos(expected_repos, actual_repos)
-  expected_repo_names = expected_repos.map { |node| node[:name] }
-  actual_repo_names = actual_repos.map { |node| node[:name] }
-  assert_equal expected_repo_names, actual_repo_names
+  assert_equal expected_repos, actual_repos
 end
 
 def load_expected_repos(repos_yaml)
   return File.open(repos_yaml) do |f|
-    YAML.load(f, filename: repos_yaml, symbolize_names: true)
+    YAML.load(f, filename: repos_yaml, symbolize_names: false)
   end
 end
 
@@ -75,3 +73,5 @@ actual_repos = load_actual_repos(retrieve_github_token())
 
 puts actual_repos
 puts expected_repos
+
+assert_repos(expected_repos, actual_repos)

@@ -1,4 +1,5 @@
 ".github": {}
+"actions": {}
 "audit": {}
 "dev.embulk.org": {}
 "discussions": {}
@@ -6,8 +7,8 @@
 "docs": {}
 "docs.embulk.org": {}
 "embulk": {}
-"embulk-base-guess": {}
 "embulk-base-restclient": {}
+"embulk-builtins": {}
 "embulk-decoder-bzip2": {}
 "embulk-decoder-gzip": {}
 "embulk-docs": {}
@@ -39,6 +40,7 @@
 "embulk-input-s3": {}
 "embulk-input-script": {}
 "embulk-input-sftp": {}
+"embulk-junit5-proto": {}
 "embulk-output-azure_blob_storage": {}
 "embulk-output-bigquery": {}
 "embulk-output-command": {}
@@ -72,11 +74,14 @@
 "embulk-util-text": {}
 "embulk-util-throttle-helper": {}
 "embulk-util-timestamp": {}
+"embulk-utils": {}
 "embulk.github.io": {}
+"gpg": {}
 "gradle-embulk-plugins": {}
 "gradle-embulk-runset": {}
 "guice-bootstrap": {}
 "logo": {}
+"nightly-regression": {}
 "old-embulk.github.io": {}
 "plugin-crawler": {}
 "plugins-cross-search": {}
