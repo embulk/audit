@@ -1,3 +1,4 @@
+---
 ".github":
   name: ".github"
   collaborators:
@@ -9,6 +10,15 @@
   visibility: PUBLIC
 actions:
   name: actions
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+audit:
+  name: audit
   collaborators:
     totalCount: 3
     nodes:
