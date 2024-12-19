@@ -48,9 +48,10 @@ def load_actual_repos(access_token)
   query = <<-GRAPHQL
 query paginate($cursor: String) {
   organization(login: "embulk") {
-    repositories(first: 100, orderBy: {field: NAME, direction: ASC}, after: $cursor) {
+    repositories(visibility: PUBLIC, first: 100, orderBy: {field: NAME, direction: ASC}, after: $cursor) {
       nodes {
         name
+        visibility
       }
       pageInfo {
         hasNextPage

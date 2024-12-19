@@ -1,6 +1,5 @@
 ".github": {}
 "actions": {}
-"audit": {}
 "dev.embulk.org": {}
 "discussions": {}
 "dl.embulk.org": {}
@@ -76,7 +75,6 @@
 "embulk-util-timestamp": {}
 "embulk-utils": {}
 "embulk.github.io": {}
-"gpg": {}
 "gradle-embulk-plugins": {}
 "gradle-embulk-runset": {}
 "guice-bootstrap": {}
