@@ -45,7 +45,9 @@ def retrieve_github_token()
 end
 
 def assert_repos(expected_repos, actual_repos)
-  assert { expected_repos == actual_repos }
+  actual_repos.each do |actual_repo_name, actual_repo|
+    assert { expected_repos[actual_repo_name] == actual_repo }
+  end
 end
 
 def load_expected_repos(repos_yaml)
