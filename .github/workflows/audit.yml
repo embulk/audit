@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main
+  schedule:
+    - cron: "0 18 * * *"  # 3am in Asia/Tokyo
 jobs:
   audit:
     runs-on: ubuntu-latest
