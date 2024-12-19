@@ -1,12 +1,14 @@
 # coding: utf-8
 require 'octokit'
 require 'minitest'
+require 'minitest/power_assert'
 require 'pathname'
 require 'yaml'
 
 SCRIPT_PATH = Pathname.new(__dir__)
 
 include Minitest::Assertions
+include Minitest::PowerAssert::Assertions
 
 class << self
   attr_accessor :assertions
@@ -31,7 +33,7 @@ def retrieve_github_token()
 end
 
 def assert_repos(expected_repos, actual_repos)
-  assert_equal expected_repos, actual_repos
+  assert { expected_repos == actual_repos }
 end
 
 def load_expected_repos(repos_yaml)
@@ -70,8 +72,5 @@ end
 
 expected_repos = load_expected_repos("repos.yaml")
 actual_repos = load_actual_repos(retrieve_github_token())
-
-puts actual_repos
-puts expected_repos
 
 assert_repos(expected_repos, actual_repos)
