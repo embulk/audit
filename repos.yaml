@@ -1,87 +1,1200 @@
-".github": {}
-"actions": {}
-"dev.embulk.org": {}
-"discussions": {}
-"dl.embulk.org": {}
-"docs": {}
-"docs.embulk.org": {}
-"embulk": {}
-"embulk-base-restclient": {}
-"embulk-builtins": {}
-"embulk-decoder-bzip2": {}
-"embulk-decoder-gzip": {}
-"embulk-docs": {}
-"embulk-encoder-bzip2": {}
-"embulk-encoder-gzip": {}
-"embulk-executor-mapreduce": {}
-"embulk-filter-calcite": {}
-"embulk-filter-column": {}
-"embulk-filter-decrypt": {}
-"embulk-filter-encrypt": {}
-"embulk-filter-expand_json": {}
-"embulk-filter-remove_columns": {}
-"embulk-filter-rename": {}
-"embulk-formatter-csv": {}
-"embulk-guess-bzip2": {}
-"embulk-guess-csv": {}
-"embulk-guess-csv_verify": {}
-"embulk-guess-gzip": {}
-"embulk-guess-json": {}
-"embulk-guess-msgpack": {}
-"embulk-input-azure_blob_storage": {}
-"embulk-input-command": {}
-"embulk-input-config": {}
-"embulk-input-file": {}
-"embulk-input-ftp": {}
-"embulk-input-gcs": {}
-"embulk-input-jdbc": {}
-"embulk-input-mongodb": {}
-"embulk-input-s3": {}
-"embulk-input-script": {}
-"embulk-input-sftp": {}
-"embulk-junit5-proto": {}
-"embulk-output-azure_blob_storage": {}
-"embulk-output-bigquery": {}
-"embulk-output-command": {}
-"embulk-output-elasticsearch": {}
-"embulk-output-file": {}
-"embulk-output-ftp": {}
-"embulk-output-gcs": {}
-"embulk-output-jdbc": {}
-"embulk-output-null": {}
-"embulk-output-s3": {}
-"embulk-output-sftp": {}
-"embulk-output-stdout": {}
-"embulk-parser-apache-log": {}
-"embulk-parser-csv": {}
-"embulk-parser-json": {}
-"embulk-parser-msgpack": {}
-"embulk-spi": {}
-"embulk-standards": {}
-"embulk-util-aws-credentials": {}
-"embulk-util-config": {}
-"embulk-util-csv": {}
-"embulk-util-dynamic": {}
-"embulk-util-file": {}
-"embulk-util-guess": {}
-"embulk-util-json": {}
-"embulk-util-msgpack": {}
-"embulk-util-retryhelper": {}
-"embulk-util-rubytime": {}
-"embulk-util-snakeyaml": {}
-"embulk-util-ssl": {}
-"embulk-util-text": {}
-"embulk-util-throttle-helper": {}
-"embulk-util-timestamp": {}
-"embulk-utils": {}
-"embulk.github.io": {}
-"gradle-embulk-plugins": {}
-"gradle-embulk-runset": {}
-"guice-bootstrap": {}
-"logo": {}
-"nightly-regression": {}
-"old-embulk.github.io": {}
-"plugin-crawler": {}
-"plugins-cross-search": {}
-"plugins.embulk.org": {}
-"test.embulk.org": {}
+".github":
+  name: ".github"
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+actions:
+  name: actions
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+dev.embulk.org:
+  name: dev.embulk.org
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+  visibility: PUBLIC
+discussions:
+  name: discussions
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+dl.embulk.org:
+  name: dl.embulk.org
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+docs:
+  name: docs
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+docs.embulk.org:
+  name: docs.embulk.org
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk:
+  name: embulk
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-base-restclient:
+  name: embulk-base-restclient
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-builtins:
+  name: embulk-builtins
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-decoder-bzip2:
+  name: embulk-decoder-bzip2
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-decoder-gzip:
+  name: embulk-decoder-gzip
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-docs:
+  name: embulk-docs
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-encoder-bzip2:
+  name: embulk-encoder-bzip2
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-encoder-gzip:
+  name: embulk-encoder-gzip
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-executor-mapreduce:
+  name: embulk-executor-mapreduce
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-filter-calcite:
+  name: embulk-filter-calcite
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-filter-column:
+  name: embulk-filter-column
+  collaborators:
+    totalCount: 12
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: sonots
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-filter-decrypt:
+  name: embulk-filter-decrypt
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: ryamasaki
+  visibility: PUBLIC
+embulk-filter-encrypt:
+  name: embulk-filter-encrypt
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-filter-expand_json:
+  name: embulk-filter-expand_json
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-filter-remove_columns:
+  name: embulk-filter-remove_columns
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-filter-rename:
+  name: embulk-filter-rename
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-formatter-csv:
+  name: embulk-formatter-csv
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-guess-bzip2:
+  name: embulk-guess-bzip2
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-guess-csv:
+  name: embulk-guess-csv
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-guess-csv_verify:
+  name: embulk-guess-csv_verify
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-guess-gzip:
+  name: embulk-guess-gzip
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-guess-json:
+  name: embulk-guess-json
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-guess-msgpack:
+  name: embulk-guess-msgpack
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-input-azure_blob_storage:
+  name: embulk-input-azure_blob_storage
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: ylzen
+  visibility: PUBLIC
+embulk-input-command:
+  name: embulk-input-command
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-input-config:
+  name: embulk-input-config
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-input-file:
+  name: embulk-input-file
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-input-ftp:
+  name: embulk-input-ftp
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-input-gcs:
+  name: embulk-input-gcs
+  collaborators:
+    totalCount: 5
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: hakobera
+    - login: dmikurube
+    - login: ylzen
+  visibility: PUBLIC
+embulk-input-jdbc:
+  name: embulk-input-jdbc
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-input-mongodb:
+  name: embulk-input-mongodb
+  collaborators:
+    totalCount: 5
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: lamanotrama
+    - login: hakobera
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-input-s3:
+  name: embulk-input-s3
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+  visibility: PUBLIC
+embulk-input-script:
+  name: embulk-input-script
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-input-sftp:
+  name: embulk-input-sftp
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: civitaspo
+  visibility: PUBLIC
+embulk-junit5-proto:
+  name: embulk-junit5-proto
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-output-azure_blob_storage:
+  name: embulk-output-azure_blob_storage
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: ylzen
+  visibility: PUBLIC
+embulk-output-bigquery:
+  name: embulk-output-bigquery
+  collaborators:
+    totalCount: 9
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: potato2003
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: sonots
+    - login: shio-phys
+  visibility: PUBLIC
+embulk-output-command:
+  name: embulk-output-command
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+  visibility: PUBLIC
+embulk-output-elasticsearch:
+  name: embulk-output-elasticsearch
+  collaborators:
+    totalCount: 4
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: johtani
+  visibility: PUBLIC
+embulk-output-file:
+  name: embulk-output-file
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-output-ftp:
+  name: embulk-output-ftp
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-output-gcs:
+  name: embulk-output-gcs
+  collaborators:
+    totalCount: 5
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: hakobera
+    - login: dmikurube
+    - login: ylzen
+  visibility: PUBLIC
+embulk-output-jdbc:
+  name: embulk-output-jdbc
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-output-null:
+  name: embulk-output-null
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-output-s3:
+  name: embulk-output-s3
+  collaborators:
+    totalCount: 7
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: llibra
+    - login: dmikurube
+    - login: toyama0919
+    - login: hiroyuki-sato
+    - login: civitaspo
+  visibility: PUBLIC
+embulk-output-sftp:
+  name: embulk-output-sftp
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-output-stdout:
+  name: embulk-output-stdout
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-parser-apache-log:
+  name: embulk-parser-apache-log
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk-parser-csv:
+  name: embulk-parser-csv
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-parser-json:
+  name: embulk-parser-json
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-parser-msgpack:
+  name: embulk-parser-msgpack
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-spi:
+  name: embulk-spi
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-standards:
+  name: embulk-standards
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-aws-credentials:
+  name: embulk-util-aws-credentials
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-config:
+  name: embulk-util-config
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-csv:
+  name: embulk-util-csv
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-dynamic:
+  name: embulk-util-dynamic
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-file:
+  name: embulk-util-file
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-guess:
+  name: embulk-util-guess
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-json:
+  name: embulk-util-json
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-msgpack:
+  name: embulk-util-msgpack
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-retryhelper:
+  name: embulk-util-retryhelper
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-rubytime:
+  name: embulk-util-rubytime
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-snakeyaml:
+  name: embulk-util-snakeyaml
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-ssl:
+  name: embulk-util-ssl
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-text:
+  name: embulk-util-text
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-throttle-helper:
+  name: embulk-util-throttle-helper
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-util-timestamp:
+  name: embulk-util-timestamp
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+embulk-utils:
+  name: embulk-utils
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+embulk.github.io:
+  name: embulk.github.io
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+gradle-embulk-plugins:
+  name: gradle-embulk-plugins
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+gradle-embulk-runset:
+  name: gradle-embulk-runset
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+guice-bootstrap:
+  name: guice-bootstrap
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+logo:
+  name: logo
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+nightly-regression:
+  name: nightly-regression
+  collaborators:
+    totalCount: 11
+    nodes:
+    - login: frsyuki
+    - login: joker1007
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
+  visibility: PUBLIC
+old-embulk.github.io:
+  name: old-embulk.github.io
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+plugin-crawler:
+  name: plugin-crawler
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+plugins-cross-search:
+  name: plugins-cross-search
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+plugins.embulk.org:
+  name: plugins.embulk.org
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
+test.embulk.org:
+  name: test.embulk.org
+  collaborators:
+    totalCount: 3
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+  visibility: PUBLIC
