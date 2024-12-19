@@ -1,3 +1,15 @@
+Audit GitHub repositories automatically, especially about security-related matters, such as :
+
+* Permitted users, and their permissions
+* Permissions for GitHub Actions, such as approval needed for all / first-time contributors (to be implemented)
+* Secrets and Variables (to be implemented)
+* ...
+
+This just compares the current repository configurations retrieved from GitHub API with `repos.yaml`, which contains their "expected" configurations.
+
+How to run audit
+=================
+
 Create a GitHub fine-grained personal access token at : https://github.com/settings/personal-access-tokens/new
 
 * Resource owner: embulk
