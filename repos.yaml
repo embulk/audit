@@ -2,29 +2,39 @@
 ".github":
   name: ".github"
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 actions:
   name: actions
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 audit:
   name: audit
   collaborators:
-    totalCount: 3
+    totalCount: 11
     nodes:
     - login: frsyuki
+    - login: joker1007
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
+    - login: giwa
+    - login: d-hrs
+    - login: civitaspo
+    - login: kekekenta
+    - login: hito4t
+    - login: legiangthanh
   visibility: PUBLIC
 dev.embulk.org:
   name: dev.embulk.org
@@ -56,29 +66,32 @@ discussions:
 dl.embulk.org:
   name: dl.embulk.org
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 docs:
   name: docs
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 docs.embulk.org:
   name: docs.embulk.org
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk:
   name: embulk
@@ -100,20 +113,22 @@ embulk:
 embulk-base-restclient:
   name: embulk-base-restclient
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-builtins:
   name: embulk-builtins
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-decoder-bzip2:
   name: embulk-decoder-bzip2
@@ -152,11 +167,12 @@ embulk-decoder-gzip:
 embulk-docs:
   name: embulk-docs
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-encoder-bzip2:
   name: embulk-encoder-bzip2
@@ -195,20 +211,22 @@ embulk-encoder-gzip:
 embulk-executor-mapreduce:
   name: embulk-executor-mapreduce
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-filter-calcite:
   name: embulk-filter-calcite
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-filter-column:
   name: embulk-filter-column
@@ -231,21 +249,23 @@ embulk-filter-column:
 embulk-filter-decrypt:
   name: embulk-filter-decrypt
   collaborators:
-    totalCount: 4
+    totalCount: 5
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
     - login: ryamasaki
   visibility: PUBLIC
 embulk-filter-encrypt:
   name: embulk-filter-encrypt
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-filter-expand_json:
   name: embulk-filter-expand_json
@@ -352,11 +372,12 @@ embulk-guess-csv:
 embulk-guess-csv_verify:
   name: embulk-guess-csv_verify
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-guess-gzip:
   name: embulk-guess-gzip
@@ -395,20 +416,22 @@ embulk-guess-json:
 embulk-guess-msgpack:
   name: embulk-guess-msgpack
   collaborators:
-    totalCount: 3
-    nodes:
-    - login: frsyuki
-    - login: muga
-    - login: dmikurube
-  visibility: PUBLIC
-embulk-input-azure_blob_storage:
-  name: embulk-input-azure_blob_storage
-  collaborators:
     totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
+  visibility: PUBLIC
+embulk-input-azure_blob_storage:
+  name: embulk-input-azure_blob_storage
+  collaborators:
+    totalCount: 5
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
     - login: ylzen
   visibility: PUBLIC
 embulk-input-command:
@@ -465,21 +488,23 @@ embulk-input-file:
 embulk-input-ftp:
   name: embulk-input-ftp
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-input-gcs:
   name: embulk-input-gcs
   collaborators:
-    totalCount: 5
+    totalCount: 6
     nodes:
     - login: frsyuki
     - login: muga
     - login: hakobera
     - login: dmikurube
+    - login: hiroyuki-sato
     - login: ylzen
   visibility: PUBLIC
 embulk-input-jdbc:
@@ -502,13 +527,14 @@ embulk-input-jdbc:
 embulk-input-mongodb:
   name: embulk-input-mongodb
   collaborators:
-    totalCount: 5
+    totalCount: 6
     nodes:
     - login: frsyuki
     - login: muga
     - login: lamanotrama
     - login: hakobera
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-input-s3:
   name: embulk-input-s3
@@ -523,20 +549,22 @@ embulk-input-s3:
 embulk-input-script:
   name: embulk-input-script
   collaborators:
-    totalCount: 3
-    nodes:
-    - login: frsyuki
-    - login: muga
-    - login: dmikurube
-  visibility: PUBLIC
-embulk-input-sftp:
-  name: embulk-input-sftp
-  collaborators:
     totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
+  visibility: PUBLIC
+embulk-input-sftp:
+  name: embulk-input-sftp
+  collaborators:
+    totalCount: 5
+    nodes:
+    - login: frsyuki
+    - login: muga
+    - login: dmikurube
+    - login: hiroyuki-sato
     - login: civitaspo
   visibility: PUBLIC
 embulk-junit5-proto:
@@ -559,11 +587,12 @@ embulk-junit5-proto:
 embulk-output-azure_blob_storage:
   name: embulk-output-azure_blob_storage
   collaborators:
-    totalCount: 4
+    totalCount: 5
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
     - login: ylzen
   visibility: PUBLIC
 embulk-output-bigquery:
@@ -594,11 +623,12 @@ embulk-output-command:
 embulk-output-elasticsearch:
   name: embulk-output-elasticsearch
   collaborators:
-    totalCount: 4
+    totalCount: 5
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
     - login: johtani
   visibility: PUBLIC
 embulk-output-file:
@@ -621,21 +651,23 @@ embulk-output-file:
 embulk-output-ftp:
   name: embulk-output-ftp
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-output-gcs:
   name: embulk-output-gcs
   collaborators:
-    totalCount: 5
+    totalCount: 6
     nodes:
     - login: frsyuki
     - login: muga
     - login: hakobera
     - login: dmikurube
+    - login: hiroyuki-sato
     - login: ylzen
   visibility: PUBLIC
 embulk-output-jdbc:
@@ -722,11 +754,12 @@ embulk-output-stdout:
 embulk-parser-apache-log:
   name: embulk-parser-apache-log
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk-parser-csv:
   name: embulk-parser-csv
@@ -1071,11 +1104,12 @@ embulk-util-timestamp:
 embulk-utils:
   name: embulk-utils
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 embulk.github.io:
   name: embulk.github.io
@@ -1131,20 +1165,22 @@ gradle-embulk-runset:
 guice-bootstrap:
   name: guice-bootstrap
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 logo:
   name: logo
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 nightly-regression:
   name: nightly-regression
@@ -1166,45 +1202,50 @@ nightly-regression:
 old-embulk.github.io:
   name: old-embulk.github.io
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 plugin-crawler:
   name: plugin-crawler
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 plugins-cross-search:
   name: plugins-cross-search
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 plugins.embulk.org:
   name: plugins.embulk.org
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
 test.embulk.org:
   name: test.embulk.org
   collaborators:
-    totalCount: 3
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
     - login: dmikurube
+    - login: hiroyuki-sato
   visibility: PUBLIC
