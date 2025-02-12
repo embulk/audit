@@ -432,7 +432,6 @@ embulk-input-azure_blob_storage:
     - login: muga
     - login: dmikurube
     - login: hiroyuki-sato
-    - login: ylzen
   visibility: PUBLIC
 embulk-input-command:
   name: embulk-input-command
@@ -505,7 +504,6 @@ embulk-input-gcs:
     - login: hakobera
     - login: dmikurube
     - login: hiroyuki-sato
-    - login: ylzen
   visibility: PUBLIC
 embulk-input-jdbc:
   name: embulk-input-jdbc
@@ -593,7 +591,6 @@ embulk-output-azure_blob_storage:
     - login: muga
     - login: dmikurube
     - login: hiroyuki-sato
-    - login: ylzen
   visibility: PUBLIC
 embulk-output-bigquery:
   name: embulk-output-bigquery
@@ -668,7 +665,6 @@ embulk-output-gcs:
     - login: hakobera
     - login: dmikurube
     - login: hiroyuki-sato
-    - login: ylzen
   visibility: PUBLIC
 embulk-output-jdbc:
   name: embulk-output-jdbc
