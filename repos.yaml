@@ -426,7 +426,7 @@ embulk-guess-msgpack:
 embulk-input-azure_blob_storage:
   name: embulk-input-azure_blob_storage
   collaborators:
-    totalCount: 5
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
@@ -497,11 +497,10 @@ embulk-input-ftp:
 embulk-input-gcs:
   name: embulk-input-gcs
   collaborators:
-    totalCount: 6
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
-    - login: hakobera
     - login: dmikurube
     - login: hiroyuki-sato
   visibility: PUBLIC
@@ -585,7 +584,7 @@ embulk-junit5-proto:
 embulk-output-azure_blob_storage:
   name: embulk-output-azure_blob_storage
   collaborators:
-    totalCount: 5
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
@@ -658,11 +657,10 @@ embulk-output-ftp:
 embulk-output-gcs:
   name: embulk-output-gcs
   collaborators:
-    totalCount: 6
+    totalCount: 4
     nodes:
     - login: frsyuki
     - login: muga
-    - login: hakobera
     - login: dmikurube
     - login: hiroyuki-sato
   visibility: PUBLIC
